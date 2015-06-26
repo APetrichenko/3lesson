@@ -5,7 +5,9 @@
 public class CodingXor {
     public static void main(String[] args) {
     String message = "Hello";
-       for (char ch: System.out.println( message.toCharArray());
+       for (char ch: ( message.toCharArray()){
+            System.out.println(ch);
+        }
 
         char key = 'a';
         String [] a = {"W","S","S","A"};
@@ -27,8 +29,8 @@ public class CodingXor {
     }
 
     public static String[] expandArray(String[] inArray, int expandBy) {
-        int initLength = inArray.length;
-        String[] result = new String[initLength+expandBy];
+        int initLength = inArray.length;d
+        String[] result = new String[initLength+expanBy];
         for (int i = 0; i <inArray.length;i++){
             result[i] = inArray[i];
         }
