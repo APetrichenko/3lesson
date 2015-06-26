@@ -1,0 +1,24 @@
+int [] a = new int[5];
+После создания массива - его размер менять нельзя
+   a[2] = 100; добавляем значение
+
+ for (int i = 0;i < a.length;i++){
+            System.out.println(a[i]);
+        }
+
+запись строк в массив
+String [] a = String[4];
+        a[0] = "Winter";
+        a[1] = "Spring";
+        a[2] = "Summer";
+        a[3] = "Autumn";
+
+
+ public static String[] expandArray(String[] inArray, int expandBy) {
+        int initLength = inArray.length;
+        String[] result = new String[initLength+expandBy];
+        for (int i = 0; i <inArray.length;i++){
+            result[i] = inArray[i];
+        }
+        return result;
+    }
