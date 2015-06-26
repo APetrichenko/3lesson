@@ -21,7 +21,7 @@ public class CodingXor {
 
     }
     public static String encode(String message, char key){
-
+        message.toCharArray();
         return null;//TODO
     }
 
