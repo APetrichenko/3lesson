@@ -5,6 +5,7 @@
 public class CodingXor {
     public static void main(String[] args) {
     String message = "Hello";
+       for (char ch: System.out.println( message.toCharArray());
 
         char key = 'a';
         String [] a = {"W","S","S","A"};
